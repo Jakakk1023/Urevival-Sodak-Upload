@@ -260,6 +260,13 @@ td li a {
 .timelinegif {
 }
 .undercon {
+    margin-left: 50px;
+    left: auto;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-left: auto;
+    padding-right: auto;
 }
 .pineridge {
 }
@@ -316,7 +323,7 @@ td li a {
 
 
 /*Tablet View*/
-@media (min-width: 401px) and (max-width: 768px){
+@media (min-width: 415px) and (max-width: 1024px){
 
 .upperlogo {
     margin-left: 0px;
@@ -369,6 +376,9 @@ td li a {
 .undercon {
     width: 760px;
     height: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
 }
 .rosebudimg {
     width: 720px;
@@ -410,7 +420,7 @@ td li a {
 }
 
 /*Mobile View*/
-@media (max-width: 400px){
+@media (max-width: 414px){
 .upperlogo {
     margin-left: 0px;
     padding-left: 0px;
@@ -537,6 +547,10 @@ h1 {
 .undercon {
     width: 380px;
     height: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: auto;
+    padding-left: auto;
 }
 .podcast {
     width: 200px;
@@ -572,6 +586,11 @@ h1 {
     width: 300px;
     height: 240px;
 }
+.historytext {
+    min-width: 300px;
+
+}
+
 
 
 
